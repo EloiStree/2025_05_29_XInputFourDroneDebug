@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8284965399240563726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519076701013310882}
+  m_Layer: 0
+  m_Name: Camera Four Drone Follow it
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4519076701013310882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8284965399240563726}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.91931, y: 0, z: -318.57166}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 503617986188617819}
+  - {fileID: 2607423876610682737}
+  - {fileID: 7885965247307061896}
+  - {fileID: 8744923934965859664}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2607627551131440787
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4519076701013310882}
+    m_Modifications:
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.76812124
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.7311321
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.6839622
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.68722427
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283470633346449773, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_Name
+      value: Camera Four Drone (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+--- !u!4 &7885965247307061896 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+  m_PrefabInstance: {fileID: 2607627551131440787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3466787723251386699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4519076701013310882}
+    m_Modifications:
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.5896226
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.64490473
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.6650944
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.6796215
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283470633346449773, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_Name
+      value: Camera Four Drone (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+--- !u!4 &8744923934965859664 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+  m_PrefabInstance: {fileID: 3466787723251386699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5745890599377249344
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4519076701013310882}
+    m_Modifications:
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.8428066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.7971698
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.82818395
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.7783019
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283470633346449773, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_Name
+      value: Camera Four Drone
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+--- !u!4 &503617986188617819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+  m_PrefabInstance: {fileID: 5745890599377249344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7885762119686579050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4519076701013310882}
+    m_Modifications:
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.6367924
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.9974045
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144469823197495060, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.740566
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.96719545
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846162195388283121, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283470633346449773, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+      propertyPath: m_Name
+      value: Camera Four Drone (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+--- !u!4 &2607423876610682737 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5278417695415864347, guid: 1d89b662478ab5340b195d800f9159a6, type: 3}
+  m_PrefabInstance: {fileID: 7885762119686579050}
+  m_PrefabAsset: {fileID: 0}
