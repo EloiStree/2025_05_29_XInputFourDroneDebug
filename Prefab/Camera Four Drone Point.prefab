@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1672217903656464510}
   - component: {fileID: 3846162195388283121}
-  - component: {fileID: 5732950698726501690}
   - component: {fileID: 1098037578875814522}
   m_Layer: 0
   m_Name: Camera Four Drone
@@ -66,7 +65,7 @@ Camera:
     width: 0.4
     height: 0.5
   near clip plane: 0.01
-  far clip plane: 1000
+  far clip plane: 9999.999
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -85,14 +84,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &5732950698726501690
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4291266150897069666}
-  m_Enabled: 1
 --- !u!114 &1098037578875814522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -146,8 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5278417695415864347}
-  - component: {fileID: 3774585041924927817}
-  - component: {fileID: 3329312923401969535}
+  - component: {fileID: 5816106842929544554}
   m_Layer: 0
   m_Name: Camera Four Drone Point
   m_TagString: Untagged
@@ -171,7 +161,7 @@ Transform:
   - {fileID: 1672217903656464510}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3774585041924927817
+--- !u!114 &5816106842929544554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,19 +170,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8283470633346449773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c19fd1e6dc0b924bbd5cc5ce5a15176, type: 3}
+  m_Script: {fileID: 11500000, guid: 62d3521350cd80a4f9f5f8d5b72cbcdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_target: {fileID: 0}
   m_whatToMove: {fileID: 5278417695415864347}
-  m_lerpSpeedMove: 20
-  m_lerpSpeedRotate: 720
   m_useLateUpdate: 1
---- !u!81 &3329312923401969535
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8283470633346449773}
-  m_Enabled: 1
